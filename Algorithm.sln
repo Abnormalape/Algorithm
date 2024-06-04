@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.BinarySearch", "1.BinarySearch\1.BinarySearch.csproj", "{6B9FDE23-6595-44D3-929B-6B00E290F431}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.BinarySearch", "1.BinarySearch\1.BinarySearch.csproj", "{6B9FDE23-6595-44D3-929B-6B00E290F431}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.BubbleSort", "2.BubleSort\2.BubbleSort.csproj", "{45E586CF-3907-4A17-A7C4-7B7FAC149761}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.BubbleSort", "2.BubleSort\2.BubbleSort.csproj", "{45E586CF-3907-4A17-A7C4-7B7FAC149761}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.SelectionSort", "2.SelectionSort\2.SelectionSort.csproj", "{77E297AC-98FF-46AD-ABC4-1C9BAE3B2514}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.SelectionSort", "2.SelectionSort\2.SelectionSort.csproj", "{77E297AC-98FF-46AD-ABC4-1C9BAE3B2514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.InsertionSort", "4.InsertionSort\4.InsertionSort.csproj", "{7B610B54-51F9-4C8B-AFBF-1E20BD6B791A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.QuickSort", "5.QuickSort\5.QuickSort.csproj", "{1134DF4D-001D-44A3-998A-0C49A859CA91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{77E297AC-98FF-46AD-ABC4-1C9BAE3B2514}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77E297AC-98FF-46AD-ABC4-1C9BAE3B2514}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77E297AC-98FF-46AD-ABC4-1C9BAE3B2514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B610B54-51F9-4C8B-AFBF-1E20BD6B791A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B610B54-51F9-4C8B-AFBF-1E20BD6B791A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B610B54-51F9-4C8B-AFBF-1E20BD6B791A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B610B54-51F9-4C8B-AFBF-1E20BD6B791A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1134DF4D-001D-44A3-998A-0C49A859CA91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1134DF4D-001D-44A3-998A-0C49A859CA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1134DF4D-001D-44A3-998A-0C49A859CA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1134DF4D-001D-44A3-998A-0C49A859CA91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
