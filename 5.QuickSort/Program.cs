@@ -55,12 +55,26 @@ class Program
     }
     static void Main(string[] args)
     {
-        int[] array = { 5, 2, 8, 4, 1, 7, 3, 6, 9, 10, 15, 13, 14, 12, 17, 16 };
+        int maxValue = 100000;
+        Random rand = new Random();
+        
+        List<int> list = new List<int>();
+        for(int i = 0; i < maxValue; i++)
+        {
+            int number = rand.Next(1,maxValue);
+            list.Add(number);
+        }
+        int[] array = list.ToArray();
+
+        //int[] array = { 5, 2, 8, 4, 1, 7, 3, 6, 9, 10, 15, 13, 14, 12, 17, 16 };
         //int[] array = { 10, 7, 8, 9, 1, 5 };
         //array가 작으면 문제가 생길수도.
 
         Console.WriteLine($"정렬 전 : {string.Join(", ", array)}");
         QuickSort(array, 0, array.Length-1);
+        Console.WriteLine();
+        Console.WriteLine();
+        Console.WriteLine();
         Console.WriteLine($"정렬 후 : {string.Join(", ", array)}");
     }
 }
